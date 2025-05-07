@@ -47,7 +47,8 @@ public class BinaryTreeWO0 {
 		root.left.right = bt.createNode(0);
 		root.right.left = bt.createNode(1);
 		root.right.right = bt.createNode(0);
-		root.right.right.left = bt.createNode(1);
+		root.right.right.left = bt.createNode(0);
+		root.right.right.right = bt.createNode(0);
 		
 		bt.normalPrint(root);
 		System.out.println();
